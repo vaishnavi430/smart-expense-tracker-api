@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "Groceries",
+        "amount": 500.0,
+        "category": "Food",
+        "date": "2026-08-01"
+    }
+]

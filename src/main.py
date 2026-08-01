@@ -1,10 +1,13 @@
 from fastapi import FastAPI
+from src.routes import router
 
 app = FastAPI(
     title="Smart Expense Tracker API",
     version="1.0.0",
-    description="Take-home assignment for Software Engineering Apprenticeship"
+    description="REST API to manage personal expenses"
 )
+
+app.include_router(router)
 
 
 @app.get("/")
